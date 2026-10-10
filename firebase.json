@@ -1,0 +1,51 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "e-aduan-ict-kuypj",
+          "configurations": {
+            "android": "1:116343591068:android:e76e0d4a188236367b9d59",
+            "web": "1:116343591068:web:ecfd61c2d51e03f77b9d59"
+          }
+        }
+      },
+      "android": {
+        "default": {
+          "projectId": "e-aduan-ict-kuypj",
+          "appId": "1:116343591068:android:e76e0d4a188236367b9d59",
+          "fileOutput": "android/app/google-services.json"
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ],
+      "source": "functions"
+    },
+    {
+      "source": "notification",
+      "codebase": "notification",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}

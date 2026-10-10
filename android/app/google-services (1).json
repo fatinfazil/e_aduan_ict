@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "116343591068",
+    "project_id": "e-aduan-ict-kuypj",
+    "storage_bucket": "e-aduan-ict-kuypj.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116343591068:android:e76e0d4a188236367b9d59",
+        "android_client_info": {
+          "package_name": "com.example.e_aduan_ict"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGcr1l0SPyck5PaQLY3PzTr7l-Epg6S7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
